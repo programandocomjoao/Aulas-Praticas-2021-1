@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Prática 10</title>
+	</head>
+
+	<body>
+		<h1>Cadastro de Usuários</h1>
+
+		<form method="post" action="mailto:jpaulobv@unigranrio.edu.br">
+			<fieldset>
+				<legend>Dados Pessoais</legend>
+
+				<p><label for="nome">Nome:</label>
+				<input type="text" id="nome" size="30" maxlength="80" placeholder="Nome completo">
+			
+				<label for="data">Data de nasc:</label>
+				<input type="date" id="data">
+
+				Sexo: <input type="radio" id="sexom" name="sexo" value="M">
+				<label for="sexom">Masculino</label>
+
+				<input type="radio" id="sexof" name="sexo" value="F">
+				<label for="sexof">Feminino</label>
+				</p>
+			</fieldset>
+
+			<fieldset>
+				<legend>Dados para Login</legend>
+				<p><label for="email">E-mail:</label>
+				<input type="email" id="email" size="30" maxlength="40">
+
+				<label for="senha">Senha:</label>
+				<input type="password" id="senha" size="8" maxlength="8" placeholder="8 dígitos">
+
+				<label for="fotoPerfil">Foto de perfil:</label>
+				<input type="file" id="fotoPerfil">
+				</p>
+			</fieldset>
+
+			<fieldset>
+				<legend>Dados de Endereço</legend>
+
+				<p><label for="logradouro">Logradouro:</label>
+				<input type="text" id="logradouro" size="15" maxlength="80" placeholder="Rua, Av, Rod, ...">
+
+				<label for="numero">N:</label>
+				<input type="number" id="numero" min="1" max="99999" size="5">
+
+				<label for="estado">Estado:</label>
+				<select id="estado">
+					<optgroup label="Região Sudeste">
+						<option value="ES">Espírito Santo</option>
+						<option value="MG">Minas Gerais</option>
+						<option value="RJ">Rio de Janeiro</option>
+						<option value="SP">São Paulo</option>
+					</optgroup>
+					<optgroup label="Região Sul">
+						<option value="PR">Paraná</option>
+						<option value="RS">Rio Grande do Sul</option>
+						<option value="SC">Santa Catarina</option>
+					</optgroup>
+				</select>
+				
+				<label for="cidade">Cidade:</label>
+				<input type="text" id="cidade" size="15" maxlength="40" placeholder="Sua cidade" list="cidades">
+				</p>
+
+				<datalist id="cidades">
+					<option value="Duque de Caxias"></option>
+					<option value="Nova Iguaçu"></option>
+					<option value="Nilópolis"></option>
+					<option value="Rio de Janeiro"></option>
+					<option value="Niterói"></option>
+					<option value="São Gonçalo"></option>
+					<option value="Rio Bonito"></option>
+					<option value="São João de Meriti"></option>
+					<option value="Rio Claro"></option>
+				</datalist>
+			</fieldset>
+
+			<fieldset>
+				<legend>Mensagem</legend>
+
+				<p><label for="mensagem">Observações:</label>
+				<textarea id="mensagem" cols="75" rows="2" placeholder="Digite as suas observações"></textarea>
+				</p>
+
+				<input type="hidden" id="dataCadastro" value="01/03/2019 - 11:30">
+
+				<input type="submit" value="Cadastrar">
+				<input type="reset" value="Limpar Campos">
+				<input type="button" value="Fechar" onclick="window.close();">
+			</fieldset>
+		</form>
+	</body>
+</html>

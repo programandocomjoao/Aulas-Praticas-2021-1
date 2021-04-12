@@ -1,0 +1,16 @@
+body {
+	background-color: silver;
+}
+
+h1 {
+	font-family: comic sans ms;
+}
+
+p {
+	font-family: verdana;
+	/* font-size: 11px; */
+	font-size: 11pt;
+	/* font-size: 11pc; */
+	/* font-size: 11cm; */
+	/* font-size: 11mm; */
+}

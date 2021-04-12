@@ -6,7 +6,9 @@
 	</head>
 
 	<body id="corpo">
-		<h1>Formulário de Cadastro</h1>
+		<a href="#titulo"></a>
+
+		<h1 id="titulo">Formulário de Cadastro</h1>
 
 		<form action="mailto:jpaulobv@unigranrio.edu.br" method="post">
 			<fieldset>
@@ -101,7 +103,11 @@
 				</p>
 
 				<p><label for="nivel">Nível de conhecimento em programação:</label><br>
-				0 <input type="range" id="nivel" min="0" max="10" step="2"> 10
+				0 <input type="range" id="nivel" min="0" max="10" step="2" onchange="
+					var n = document.getElementById('nivel').value;
+					document.getElementById('num').value = n;
+				"> 10
+				<input type="text" id="num" size="3">
 				</p>
 
 				<p><label for="cor">Cor do perfil:</label>
@@ -130,7 +136,12 @@
 			<input type="submit" value="Cadastrar Usuário">
 			<input type="reset" value="Limpar Campos">
 			<input type="button" value="Alterar Cor do Fundo" onclick="
-				
+				var cor = document.getElementById('cor').value;
+				document.getElementById('corpo').style.backgroundColor = cor;
+			">
+			<input type="button" value="Alterar Cor do Texto" onclick="
+				var cor = document.getElementById('cor').value;
+				document.getElementById('corpo').style.color = cor;
 			">
 			</p>
 		</form>
