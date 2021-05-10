@@ -1,0 +1,60 @@
+body {
+	background-color: silver;
+	font-family: verdana;
+}
+
+p {
+	font-size: 11pt;
+	/* text-align: left; */
+	/* text-align: right; */
+	/* text-align: center; */
+	text-align: justify;
+	text-indent: 50px;
+	line-height: 20pt;
+}
+
+blockquote {
+	font-size: 11pt;
+	text-align: right;
+	line-height: 16pt;
+	font-style: italic;
+}
+
+address {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10pt;
+	text-align: center;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+/* 
+ul, ol {
+	
+}
+*/
+
+li {
+	font-size: 11pt;
+	/* text-transform: uppercase; */
+	/* text-transform: lowercase; */
+	text-transform: capitalize;
+} 
+
+div#conteudo {
+	background-color: white;
+	/* width: 700px; */
+	width: 90%;
+	/* padding: 20px; */
+	padding: 2%;
+	border: black 1px solid;
+	/* border: red 5px double; */
+	/* border: green 3px dotted; */
+	/* border: blue 4px dashed; */
+	/* margin: 20px; */
+	margin: 0 auto;
+	box-shadow: 5px 5px 5px;
+}

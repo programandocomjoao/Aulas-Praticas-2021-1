@@ -1,0 +1,94 @@
+body {
+	font-family: verdana;
+	margin: 0;
+}
+
+header#cabecalho {
+	background-color: #666666;
+  color: #DDDDDD;
+  height: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: black 3px solid;
+}
+
+h1 {
+	margin: 0;
+}
+
+footer#rodape {
+	background-color: silver;
+	clear: both;
+	height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: black 3px solid;
+}
+
+address {
+	font-style: normal;
+	font-size: 10pt;
+	line-height: 15pt;
+}
+
+aside#secundario {
+	display: block;
+	/* width: 25%; */
+	width: 150px;
+	float: left;
+}
+
+nav#menu a {
+	text-decoration: none;
+	font-size: 11pt;
+	color: black;
+}
+
+nav#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+	position: fixed;
+	width: 150px;
+}
+
+nav#menu ul a {
+	background-color: #CCCCCC;
+	display: block;
+	width: 100%;
+	border: white 1px solid;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 5px;
+}
+
+nav#menu ul a:hover {
+	background-color: #333333;
+	color: white;
+}
+
+section#principal {
+	display: block;
+	/* width: 70%; */
+	width: calc(95% - 150px);
+	float: right;
+	padding-right: 5px;
+}
+
+h2 {
+	color: #333333;
+	font-weight: normal;
+}
+
+p {
+	color: #666666;
+	font-size: 11pt;
+	text-align: justify;
+	text-indent: 50px;
+	line-height: 16pt;
+}
