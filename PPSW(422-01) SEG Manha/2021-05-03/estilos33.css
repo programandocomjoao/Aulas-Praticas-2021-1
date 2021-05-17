@@ -1,0 +1,19 @@
+body {
+	background-color: #666666;
+	font-family: verdana;
+	font-size: 11pt;
+}
+
+div#caixa {
+	background-color: #FFFFFF;
+	width: 80%;
+	padding: 20px;
+	border: #000000 1px solid;
+	margin: 0 auto;
+}
+
+p {
+	text-align: justify;
+	text-indent: 50px;
+	line-height: 15pt; 
+}
