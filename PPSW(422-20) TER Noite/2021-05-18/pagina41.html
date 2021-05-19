@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Página 41</title>
+	</head>
+
+	<body>
+		<h1>Funções Intrínsecas - String()</h1>
+
+		<script>
+			var data = new Date();
+
+			var dia = data.getDate();
+			var mes = data.getMonth() + 1;
+			var ano = data.getFullYear();
+
+			dia = String(dia);
+			mes = String(mes);
+			ano = String(ano);
+
+			var d = dia + '/' + mes + '/' + ano;
+		</script>
+
+		<p>
+			Data: <script>document.write(d);</script><br>
+		</p>
+	</body>
+</html>

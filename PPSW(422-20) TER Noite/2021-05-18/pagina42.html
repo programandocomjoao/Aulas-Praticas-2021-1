@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Página 42</title>
+	</head>
+
+	<body>
+		<h1>Funções Intrínsecas - String()</h1>
+
+		<script>
+			var data = new Date();
+
+			var dia = data.getDate();
+			var mes = data.getMonth() + 1;
+			var ano = data.getFullYear();
+
+			if (dia < 10) {
+				dia = String(dia);
+				dia = '0' + dia;
+			}
+			else {
+				dia = String(dia);
+			}
+
+			if (mes < 10) {
+				mes = String(mes);
+				mes = '0' + mes;
+			}
+			else {
+				mes = String(mes);
+			}
+
+			ano = String(ano);
+
+			var d = dia + '/' + mes + '/' + ano;
+		</script>
+
+		<p>
+			Data: <script>document.write(d);</script><br>
+		</p>
+	</body>
+</html>
