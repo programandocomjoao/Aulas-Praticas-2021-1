@@ -1,0 +1,19 @@
+body {
+	background-color: #EEEEBB;
+	font-family: verdana;
+	font-size: 11pt;
+}
+
+h1 {
+	background-color: #003399;
+	color: white;
+}
+
+h2 {
+	background-color: #0080C0;
+	color: white;
+}
+
+p {
+	color: #000066;
+}

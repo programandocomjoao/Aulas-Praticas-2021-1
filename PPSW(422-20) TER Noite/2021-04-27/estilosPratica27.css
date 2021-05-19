@@ -1,0 +1,29 @@
+body {
+	font-family: verdana;
+	font-size: 11pt;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-decoration: overline;
+}
+
+h2 {
+	text-align: center;
+	text-transform: capitalize;
+	text-decoration: underline;
+}
+
+p {
+	text-align: justify;
+	text-indent: 50px;
+}
+
+blockquote {
+	text-align: right;
+	text-decoration: line-through;
+}
+
+address {
+	text-transform: lowercase;
+}

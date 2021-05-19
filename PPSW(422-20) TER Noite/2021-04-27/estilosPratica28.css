@@ -1,0 +1,13 @@
+body {
+	font-family: verdana;
+	font-size: 11pt;
+}
+
+h1, h2 {
+	word-spacing: 15pt;
+	letter-spacing: 10pt;
+}
+
+p {
+	line-height: 17pt;
+}

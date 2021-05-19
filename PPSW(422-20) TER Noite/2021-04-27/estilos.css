@@ -1,0 +1,19 @@
+body {
+   font-family: verdana;
+}
+
+h1 {
+   color: gray;
+   text-align: center;
+}
+
+h2 {
+   color: silver;
+}
+
+p {
+   font-size: 12pt;
+   color: darkblue;
+   text-align: justify;
+   line-height: 16pt;
+}
