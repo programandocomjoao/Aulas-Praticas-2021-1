@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Página 43</title>
+	</head>
+
+	<body>
+		<h1>Manipulação de Elementos HTML</h1>
+
+		<hr>
+		<a href="javascript:void(0);" onclick="
+			document.getElementById('bandeira').src = 'imagens/bandeiraAlemanha.png';
+			document.getElementById('bandeira').title = 'Bandeira da Alemanha';
+
+			var largura = document.getElementById('bandeira').width;
+			var altura = document.getElementById('bandeira').height;
+
+			document.getElementById('largura').value = largura;
+			document.getElementById('altura').value = altura;
+		">Alemanha</a> |
+
+		<a href="javascript:void(0);" onclick="
+			document.getElementById('bandeira').src = 'imagens/bandeiraArgentina.png';
+			document.getElementById('bandeira').title = 'Bandeira da Argentina';
+
+			var largura = document.getElementById('bandeira').width;
+			var altura = document.getElementById('bandeira').height;
+
+			document.getElementById('largura').value = largura;
+			document.getElementById('altura').value = altura;
+		">Argentina</a> |
+
+		<a href="javascript:void(0);" onclick="
+			document.getElementById('bandeira').src = 'imagens/bandeiraBrasil.png';
+			document.getElementById('bandeira').title = 'Bandeira do Brasil';
+
+			var largura = document.getElementById('bandeira').width;
+			var altura = document.getElementById('bandeira').height;
+
+			document.getElementById('largura').value = largura;
+			document.getElementById('altura').value = altura;
+		">Brasil</a> |
+
+		<a href="javascript:void(0);" onclick="
+			document.getElementById('bandeira').src = 'imagens/bandeiraItalia.png';
+			document.getElementById('bandeira').title = 'Bandeira da Itália';
+
+			var largura = document.getElementById('bandeira').width;
+			var altura = document.getElementById('bandeira').height;
+
+			document.getElementById('largura').value = largura;
+			document.getElementById('altura').value = altura;
+		">Itália</a>
+		<hr>
+
+		<img src="imagens/bandeiraBrasil.png" title="Bandeira do Brasil" id="bandeira">
+		
+		<hr>
+		<label for="largura">Largura:</label>
+		<input type="text" id="largura" size="5">
+
+		<label for="altura">Altura:</label>
+		<input type="text" id="altura" size="5">
+	</body>
+</html>

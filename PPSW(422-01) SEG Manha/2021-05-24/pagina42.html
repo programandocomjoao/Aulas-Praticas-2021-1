@@ -2,7 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
-		<title>Página 41</title>
+		<title>Página 42</title>
 	</head>
 
 	<body>
@@ -15,8 +15,22 @@
 			var mes = d.getMonth() + 1;
 			var ano = d.getFullYear();
 
-			dia = String(dia);
-			mes = String(mes);
+			if (dia < 10) {
+				dia = String(dia);
+				dia = '0' + dia;
+			}
+			else {
+				dia = String(dia);
+			}
+			
+			if (mes < 10) {
+				mes = String(mes);
+				mes = '0' + mes;
+			}
+			else {
+				mes = String(mes);
+			}
+			
 			ano = String(ano);
 
 			var data = dia + '/' + mes + '/' + ano;
