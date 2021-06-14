@@ -1,0 +1,62 @@
+body {
+	font-family: verdana;
+	background-color: #666666;
+}
+
+h1 {
+	color: #000066;
+	font-weight: normal;
+}
+
+h2 {
+	color: #0080C0;	
+	font-weight: normal;
+}
+
+p {
+	font-size: 10pt;
+	text-align: justify;
+	text-indent: 12.5mm;
+	line-height: 15pt; 
+}
+
+a {
+	font-size: 10pt;
+	color: #FF0000;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+	font-style: italic;
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	text-align: center;
+}
+
+div#conf {
+	background-color: #DDDDDD;
+	color: #000000;
+	font-size: 11pt;
+	width: 80%;
+	padding: 20px;
+	border: #000000 1px solid;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	/* box-shadow: 0px 0px 10px; */
+}
+
+div#caixa {
+	background-color: #FFFFFF;
+	width: 80%;
+	padding: 20px;
+	border: #000000 1px solid;
+	margin: 0 auto;
+	box-shadow: 0px 0px 10px;
+}
