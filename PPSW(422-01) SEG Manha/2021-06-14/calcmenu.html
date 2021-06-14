@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<link rel="stylesheet" href="operacoes.css">
+		<script src="operacoes.js"></script>
+		<title>Calculadoras</title>
+	</head>
+
+	<body>
+		<div id="conteudo">
+			<h1>Calculadoras</h1>
+
+			<form>
+				<fieldset>
+					<legend>Selecione a Calculadora</legend>
+
+					<p><input type="radio" id="delta" name="operacoes" value="Delta">
+					<label for="delta">Calculadora de Delta</label>
+					</p>
+
+					<p><input type="radio" id="esfera" name="operacoes" value="Esfera">
+					<label for="esfera">Calculadora de Esfera</label>
+					</p>
+
+					<hr>
+
+					<p><input type="button" value="Acessar Calculadora" onclick="escolherCalculadora();"></p>
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>
