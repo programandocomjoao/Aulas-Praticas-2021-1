@@ -1,0 +1,14 @@
+body {
+	font-family: verdana;
+}
+
+label {
+	font-size: 10pt;
+}
+
+p.paragrafo {
+	font-size: 11pt;
+	line-height: 200%;
+	text-align: justify;
+	text-indent: 50px;
+}
